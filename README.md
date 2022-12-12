@@ -22,7 +22,7 @@ This prints the number of Things in a room. A thing is in a room if one of two c
 A character, or a monster, is considered defeated when in a battle against an opponent with higher battle points. A character and monster has an attribute wasDefeated, where false means it has not been defeated and true means it has been defeated. This function seeks to update any inconsistent defeated states between the Battles and the wasDefeated attribute for both monsters and characters
 
 ### increaseSomeThingCost
-Written as a stored function, this function seeks to increase the cost of things based on the popularity of certain kinds of things, using a parameter maxTotalIncrease as a limiter of how much in total should be increased. If a thingKind is owned 5 times or more, increase cost by 5, if 4 increase by 4, if 3 increase by 2, otherwise no increase. Here is an example.
+Written as a stored function, this function seeks to increase the cost of things based on the popularity of certain kinds of things, using a parameter maxTotalIncrease as a limiter of how much in total should be increased. If a thingKind is owned 5 times or more, increase cost by 5, if 4 increase by 4, if 3 increase by 2, otherwise no increase. The increase is based on popularity, where the priority is to increase the most popular kind of things. Here is an example.
 
 <p> Assume that scrolls are owned by 20 characters (cost increase is 5), swords are owned by 4 characters (cost increase is 4), maps are owned by 3 characters (cost increase is 2) and shields are owned by 3 characters (cost increase is also 2). </p>
 
