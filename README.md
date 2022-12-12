@@ -4,9 +4,13 @@ This project features a small Adventure Game database in PostgreSQL, and perform
 While a majority is done using the native PostgreSQL interface libpq in C, a Stored Function is also done and is called in C.
 # Usage
 Create and load the Adventure Game data using the included .sql files, along with the .pgsql file to a database server. Compile the .c file using the command
+
 > gcc -L/usr/include -lpq -o runAdventureApplication runAdventureApplication.c
+
 After compiling, you can run it using the command
+
 > runAdventureApplication (username) (password)
+
 where you must fill your credentials to the server as arguments
 # What does the program do?
 The C program runs three operations on the database.
