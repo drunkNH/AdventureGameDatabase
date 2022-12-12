@@ -26,4 +26,4 @@ Written as a stored function, this function seeks to increase the cost of things
 
 <p> Assume that scrolls are owned by 20 characters (cost increase is 5), swords are owned by 4 characters (cost increase is 4), maps are owned by 3 characters (cost increase is 2) and shields are owned by 3 characters (cost increase is also 2). </p>
 
-<p> What happens if maxTotalIncrease is 62? Then the costs of 12 scrolls are increased by 5, the costs of the swords stay the same, and the cost of 1 of the maps (or shields) is increased by 2. The value that is returned is 62 (which is 12*5 + 0*4 + 1*2). (There's no specific guideline for items of same popularity, so any of the 12 scrolls can do as long as we are including 12 scrolls) </p>
+<p> What happens if maxTotalIncrease is 62? Then the costs of 12 scrolls are increased by 5, the costs of the swords stay the same, and the cost of 1 of the maps (or shields) is increased by 2. The value that is returned is 62 (which is 12*5 + 0*4 + 1*2). (There's no specific guideline for items of same popularity, so any of the 12 scrolls can do as long as we are increasing 12 scrolls) </p>
