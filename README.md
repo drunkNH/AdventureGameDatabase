@@ -1,5 +1,5 @@
 # Adventure Game Database
-This project features a small Adventure Game database in PostgreSQL, and performing application programming techniques onto the database. This project was done as part of CSE 180: Database Systems 1 at the University of California, Santa Cruz
+This project features a small Adventure Game database in PostgreSQL, and performing application programming techniques onto the database. This project was done as part of the course CSE 180: Database Systems 1 at the University of California, Santa Cruz
 # Application Programming Approaches used
 While a majority is done using the native PostgreSQL interface libpq in C, a Stored Function is also done and is called in C.
 # Usage
