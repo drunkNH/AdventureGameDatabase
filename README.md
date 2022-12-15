@@ -28,4 +28,4 @@ Written as a stored function, this function seeks to increase the cost of things
 
 <p> What happens if maxTotalIncrease is 62? Then the costs of 12 scrolls are increased by 5, the costs of the swords stay the same, and the cost of 1 of the maps (or shields) is increased by 2. The value that is returned is 62 (which is 12*5 + 0*4 + 1*2). (There's no specific guideline for items of same popularity, so any of the 12 scrolls can do as long as we are increasing 12 scrolls) </p>
 
-<p> (Example written by Shel Finkelstein </p>
+<p> (Example written by Shel Finkelstein) </p>
