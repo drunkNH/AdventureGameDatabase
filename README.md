@@ -16,7 +16,7 @@ where you must fill your credentials to the server as arguments
 The C program runs tests on the database using three functions, using main to test the functions.
 
 ### printNumberOfThingsInRoom
-This prints the number of Things in a room. A thing is in a room if one of two conditions are met. If the thing IS NOT owned (indicated by a NULL ownermemberid and ownerrole), the thing is in initialroomid. If the thing IS owned, the thing is in the room where the owner currently is.
+This prints the number of Things in a room. A thing is in a room if one of two conditions are met. If the thing IS NOT owned (indicated by a NULL ownermemberid and ownerrole), the thing is in initialroomid. If the thing IS owned, the thing is in the room where the owner currently is (i.e. the owner's roomID).
 
 ### updateWasDefeated
 A character, or a monster, is considered defeated when in a battle against an opponent with higher battle points. A character and monster has an attribute wasDefeated, where false means it has not been defeated and true means it has been defeated. This function seeks to update any inconsistent defeated states between the Battles and the wasDefeated attribute for both monsters and characters
